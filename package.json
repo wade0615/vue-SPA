@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vue/test-utils": "^1.0.3",
-    "vue": "^2.4.4"
+    "@vue/test-utils": "^1.0.3"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -34,6 +33,7 @@
     "babel-preset-env": "^1.7.0",
     "jest": "^26.0.1",
     "jest-serializer-vue": "^2.0.2",
+    "vue": "^2.6.11",
     "vue-cli": "^2.9.6",
     "vue-jest": "^3.0.5"
   }
