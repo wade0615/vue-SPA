@@ -27,5 +27,8 @@
     "snapshotSerializers": [
       "<rootDir>/node_modules/jest-serializer-vue"
     ]
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
