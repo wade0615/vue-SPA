@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@vue/cli": "^4.4.1",
-    "@vue/cli-service-global": "^4.4.1"
+    "@vue/cli-service-global": "^4.4.1",
+    "vue": "^2.6.11"
   }
 }
