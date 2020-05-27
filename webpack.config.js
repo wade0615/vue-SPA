@@ -1,8 +1,29 @@
+const path = require('path');
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+
 module.exports = {
-    entry: "./src/main.js", //編譯前檔案的路徑
+    entry: "./components/index.js", //引入的檔案
 
     output: {
-        path: '/Users/wade/iMarts/others/vueJest', //編譯後檔案的 絕對路徑
-        filename: "build.js" //輸出檔名
-    }
+        path: path.resolve(__dirname, './dist'), //輸出的路徑
+        filename: "build.js" //輸出的檔名
+    },
+    module: {
+        rules: [
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader'
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    'vue-style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
+    },
+        plugins: [
+            new VueLoaderPlugin()
+        ]
 }
