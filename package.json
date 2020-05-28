@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
@@ -24,11 +24,7 @@
     "vue": "^2.6.11"
   },
   "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue"
-    ],
+    "moduleFileExtensions": ["js","json","vue"],
     "transform": {
       ".*\\.(vue)$": "vue-jest"
     }
