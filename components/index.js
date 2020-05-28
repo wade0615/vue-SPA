@@ -11,5 +11,5 @@ new Vue({
     </div>`,
     components: {
         apple: app
-    } //左邊是你要用的 html 語意化標籤名稱，右邊是你我們 import 進來時宣告的變數的 vue component
+    } //左邊是你要用的 html 語意化標籤名稱，右邊是我們 import 進來時宣告的變數的 vue component
 })
